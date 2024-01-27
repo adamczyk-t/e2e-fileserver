@@ -40,3 +40,9 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+tasks.register<Exec>("startDatabase") {
+	group = "custom"
+	description = "Start a container with the database"
+	commandLine("bash", "$rootDir/scripts/start-database.sh")
+}
