@@ -9,3 +9,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    token:
+      expirationMs: 3600000
+      key: KZC8TnUHoFh4OdQR8D98nLZrsr3Js/I/EtrlQ7W826c=

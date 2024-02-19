@@ -4,10 +4,7 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class E2EFileserverTests {
-
+internal class E2EFileserverTests {
 	@Test
-	fun contextLoads() {
-	}
-
+	fun contextLoads() { }
 }

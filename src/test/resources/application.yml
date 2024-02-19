@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+
+application:
+  security:
+    token:
+      expirationMs: 3600000
+      key: +LekaSYD2hUyw8YQL0GVaSvTJY5aF1crfWpyx2fHRK8=
